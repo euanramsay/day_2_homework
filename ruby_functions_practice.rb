@@ -78,5 +78,9 @@ def fahrenheit_to_celsius(temperature_f)
   return (temperature_f - 32) * 1.8
 end
 
+def miles_to_kilometres(miles)
+  return miles * 1.6
+end
+
 
 

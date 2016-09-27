@@ -86,9 +86,10 @@ class Functions_Practice < MiniTest::Test
     assert_equal(117, test_temperature_f)
   end
 
-#   def test_miles_to_kilometres
-
-#   end
+  def test_miles_to_kilometres()
+    test_miles = miles_to_kilometres( 100 )
+    assert_equal(160, test_miles)
+  end
 
 
 end
