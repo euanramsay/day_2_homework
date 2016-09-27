@@ -73,17 +73,18 @@ class Functions_Practice < MiniTest::Test
     assert_equal( 8, test_side )
   end
 
-#   #Given the radius of a sphere calculate the volume
-#   #Try using Ruby's PI value!
+  #Given the radius of a sphere calculate the volume
+  #Try using Ruby's PI value!
   def test_volume_of_sphere()
     test_radius = volume_of_sphere( 9 )
     assert_equal( 2290.221044466959, test_radius)
   end
 
-#   #You can add your own converters
-#   def test_fahrenheit_to_celsius()
-
-#   end
+  #You can add your own converters
+  def test_fahrenheit_to_celsius()
+    test_temperature_f = fahrenheit_to_celsius( 97 )
+    assert_equal(117, test_temperature_f)
+  end
 
 #   def test_miles_to_kilometres
 
