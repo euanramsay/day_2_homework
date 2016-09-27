@@ -60,3 +60,8 @@ def number_to_full_month_name(month_number)
     return "That is not a month"
   end
 end
+
+def number_to_short_month_name(month_number)
+  answer = number_to_full_month_name(month_number)
+  return answer[0..2]
+end
