@@ -65,3 +65,12 @@ def number_to_short_month_name(month_number)
   answer = number_to_full_month_name(month_number)
   return answer[0..2]
 end
+
+def volume_of_cube(length_of_side)
+  return length_of_side ** 3 
+end
+
+def volume_of_sphere(radius)
+  return ( 4 / 3 ) * (Math::PI) * (radius ** 3)
+end
+
